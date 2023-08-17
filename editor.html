@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My text Editor</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <div class="w-4/5 bg-cyan-600 h-[600px] mx-auto">
+      <p class="font-bold text-black text-center text-2xl pt-3">My Text Editor</p>
+     
+
+      <div class="bg-slate-500 w-9/12 mx-auto h-[530px]">
+
+
+     <div class=" flex justify-around h-[80px] items-center ">
+    
+       <div class="pt-3 pl-3">
+        <button id="font-bold-btn" class="btn">B</button>
+        <button id="font-italic-btn" class="btn">I</button>
+        <button id="font-underline-btn" class="btn">U</button>
+       </div>
+
+
+
+       <div class="pt-3 pl-3 space-x-2">
+        <i id="text-left-btn" class="fa fa-align-left" aria-hidden="true"></i>
+        <i id="text-right-btn" class="fa fa-align-right" aria-hidden="true"></i>
+        <i id="text-center-btn" class="fa fa-align-center" aria-hidden="true"></i>
+        <i id="text-justify-btn" class="fa fa-align-justify" aria-hidden="true"></i>
+
+
+
+       </div>
+
+       <div class="pt-3 pl-3 space-x-2">
+
+        <i id="text-xl-btn" class="fa fa-text-width" aria-hidden="true">XL</i>
+        <i id="text-2xl-btn" class="fa fa-text-width" aria-hidden="true">2XL</i>
+        <i id="text-3xl-btn" class="fa fa-text-width" aria-hidden="true">3XL</i>
+        <input  type="color" id="favcolor" name="" >
+
+
+
+       </div>
+
+        
+  <div class="">
+   <button id="clear-btn" class="btn">Clear</button>
+  </div>
+
+
+
+
+
+
+     </div>
+
+           
+
+            <hr>
+
+          <div class="pl-4 pt-2">
+           <textarea class="outline-none pl-2 pt-4 w-[98%] h-[400px] " name="" id="value-text" ></textarea>
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="editor.js"></script>
+</body>
+</html>
